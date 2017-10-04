@@ -1,0 +1,49 @@
+{
+  "app":{
+    "name": "Fbook Framgia",
+    "version": ":param"
+  },
+  "exception": {
+    "default": "Request have exception",
+    "action": "Action exception",
+    "store": "Not store database",
+    "storeMultiple": "Not store multiple database",
+    "updateMultiple": "Not update multiple database",
+    "update": "Not update database",
+    "delete": "Delete fail",
+    "restore": "Restore fail",
+    "remove": "Remove fail",
+    "not_found": "Item not exists",
+    "not_owner": "Not owner",
+    "unknown_error": "Unknown error",
+    "not_booking_book_owned": "You can't booking book which you owned",
+    "ownered_current_book": "You ownered this book",
+    "not_in_waiting_list": "User haven't in waiting list",
+    "other_user_reading_book": "Other user reading this book",
+    "data_invalid": "Data invalid",
+    "data_not_mapping": "Length params not mapping"
+  },
+  "http_message": {
+    "not_modified": "Not Modified",
+    "bad_request": "Invalid Request",
+    "unauthorized": "Unauthorized",
+    "access_denied": "Access Denied",
+    "not_found": "Not Found",
+    "method_not_allowed": "Method not Allowed",
+    "validator_error": "Validator error",
+    "internal_server_error": "Internal Server Error",
+    "bad_gateway": "Bad Gateway",
+    "service_unavailable": "Service Unavailable",
+    "gateway_timeout": "Gateway Timeout"
+  },
+  "other_error": {
+    "invalid": ":param is invalid value"
+  },
+  "title_key": {
+    "latest" : "Latest books",
+    "view" : "Top viewed books",
+    "rating" : "Top rating books",
+    "waiting" : "Top waiting books",
+    "read" : "Top read books"
+  }
+}
